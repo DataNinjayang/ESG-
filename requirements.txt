@@ -13,3 +13,7 @@ csvkit>=1.0.7
 pyarrow>=14.0.0
 # 处理图片/多媒体（若子页面有图片）
 Pillow>=10.0.0
+matplotlib
+seaborn
+plotly
+reportlab
