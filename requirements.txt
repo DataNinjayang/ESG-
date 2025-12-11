@@ -1,0 +1,15 @@
+# Streamlit核心包（指定版本避免兼容性问题）
+streamlit>=1.36.0
+
+# 数据处理包（读取CSV/Excel）
+pandas>=2.1.0
+openpyxl>=3.1.0  # 读取.xlsx文件必须依赖
+python-dotenv>=1.0.0  # 若用到环境变量（如APP_URL），建议加上
+
+# 可选：如果用到其他数据格式/功能
+# 读取CSV的备选包（pandas已包含，但可补充）
+csvkit>=1.0.7
+# 读取JSON/Parquet等
+pyarrow>=14.0.0
+# 处理图片/多媒体（若子页面有图片）
+Pillow>=10.0.0
